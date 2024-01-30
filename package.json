@@ -1,0 +1,18 @@
+{
+  "name": "build-json-schema",
+  "version": "1.0.0",
+  "description": "workspace for generating a JSON schema from typescript",
+  "scripts": {
+    "build-schema": "npx ts-json-schema-generator -p types.ts > schema.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterjeef/build-json-schema.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/masterjeef/build-json-schema#readme",
+  "devDependencies": {
+    "ts-json-schema-generator": "^1.5.0"
+  }
+}
